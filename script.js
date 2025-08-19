@@ -7,9 +7,9 @@ let level = 0;
 let startBtn = document.querySelector(".start");
 let allbtns = document.querySelectorAll(".btn");
 let h2 = document.querySelector("h2");
-const tap = new Audio("/storage/emulated/0/simon/mixkit-select-click-1109.wav");
-const lose = new Audio("/storage/emulated/0/simon/falled-sound-effect-278635.mp3");
-const correct = new Audio("/storage/emulated/0/simon/correct-356013.mp3");
+const tap = new Audio("assets/mixkit-select-click-1109.wav");
+const lose = new Audio("assets/falled-sound-effect-278635.mp3");
+const correct = new Audio("assets/correct-356013.mp3");
 startBtn.addEventListener("click", function(){
     if(start == false){
         start = true;
