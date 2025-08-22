@@ -3,6 +3,7 @@ body{
   padding. 0;
   text-align: center;
   color: white;
+  background-color: black;
 }
 body,html{
   height: 100%;
@@ -28,8 +29,8 @@ body,html{
   border-radius: 0% 100% 98% 2% / 49% 49% 51% 51% ;
 }
 .btn{
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
   border: 10px solid black;
   border-radius: 20%;
 }
